@@ -1,0 +1,6 @@
+---
+install_hdparm_packages:
+  debian: &debian
+    - "hdparm"
+  debian_armv7l: *debian
+  debian_x86_64: *debian
